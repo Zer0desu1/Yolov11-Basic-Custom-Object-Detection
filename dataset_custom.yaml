@@ -1,0 +1,6 @@
+train: D:\wireshark\train    //path to train folder
+val: D:\wireshark\val       //path to val folder 
+
+nc: 2
+
+names: ["alfa","beta"]
