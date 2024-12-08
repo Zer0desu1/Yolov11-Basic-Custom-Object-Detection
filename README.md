@@ -1,27 +1,23 @@
 # Yolov11-Basic-Custom-Object-Detection
-Custom object detection using yolov11
+##Custom object detection using yolov11
 
 
-install ultralytics
 
-!pip install ultralytics
+This guide walks you through setting up a custom object detection model using **YOLOv5**. The steps cover installation, labeling your dataset, training the model, and using the trained model for predictions.
 
+## Requirements
 
-İntrall pytorch according to your system and need
+Before we start, ensure you have the following installed:
 
-install label studio
+- Python (>= 3.7)
+- **PyTorch**: Install the appropriate version for your system.  
+  [PyTorch Installation Guide](https://pytorch.org/get-started/locally/)
+- **YOLOv5** by Ultralytics
+- **Label Studio** for dataset labeling
 
-pip install label-studio
+## Step 1: Install Ultralytics YOLOv5
 
-create project > upload images > label images > export as YOLO 
+Install the `ultralytics` package via pip:
 
-split as train and val 
-
-
-in github ultralytics download the yolo model you want
-
-train your model with that model
-
-after training find the best train called best.pt
-
-with that model predict your object
+```bash
+pip install ultralytics
