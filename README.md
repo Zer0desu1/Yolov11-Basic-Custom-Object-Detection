@@ -21,3 +21,16 @@ Install the `ultralytics` package via pip:
 
 ```bash
 pip install ultralytics
+```
+
+-create project > upload images > label images > export as YOLO
+
+split as train and val
+
+in github ultralytics download the yolo model you want
+
+train your model with that model
+
+after training find the best train called best.pt
+
+with that model predict your object 
